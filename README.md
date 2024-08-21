@@ -1,12 +1,10 @@
 # AnkiHelper
 
-AnkiHelper is a custom Chrome extension designed to streamline the creation of Anki flashcards. This extension is part of a larger automation pipeline and functions by sending requests to automatically generate flashcards. Please note that a specific Anki setup is required for this extension to work properly.
+AnkiHelper is a custom Chrome extension developed to streamline and automate the process of creating Anki flashcards. The extension facilitates the generation of word definitions along with examples and automatically creates a corresponding Anki flashcard with a single click. The automation pipeline behind this extension is built on the n8n platform.
 
 ## Screenshots
 
-Below is an example of a flashcard created using AnkiHelper:
+An example of a flashcard created using AnkiHelper:
 
 ![Flashcard Example](images/flashcard_example_1.jpg)
-
-
 

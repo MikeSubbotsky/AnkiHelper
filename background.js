@@ -38,7 +38,6 @@ chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   if (info.menuItemId === "create-card" && info.selectionText) {
     // Send the selected text immediately as a POST request
     // const url = "https://mikes.app.n8n.cloud/webhook-test/531c4634-ab11-4884-b7b7-3b04e5300458"; // Test
-    const url = "https://mikes.app.n8n.cloud/webhook/531c4634-ab11-4884-b7b7-3b04e5300458"; // Production
     const data = { word: info.selectionText };
 
     fetch(url, {
